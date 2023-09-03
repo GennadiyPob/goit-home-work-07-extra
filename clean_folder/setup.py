@@ -3,7 +3,7 @@ from setuptools import setup
 setup(name='clean_folder',
       version='1.0',
       description='Clean Folder Tool',
-      url='https://github.com/GennadiyPob/goit-home-work-07-extra/tree/main/clean_folder',
+      url='https://github.com/GennadiyPob/goit-home-work-07-extra/clean_folder',
       author='Gennadiy Pobereznichenko',
       author_email='gennadiy.pob@gmail.com',
       license='ABC',
