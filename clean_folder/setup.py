@@ -6,7 +6,6 @@ setup(name='clean_folder',
       url='https://github.com/GennadiyPob/goit-home-work-07-extra/clean_folder',
       author='Gennadiy Pobereznichenko',
       author_email='gennadiy.pob@gmail.com',
-      license='ABC',
       packages=['clean_folder'],
-      entry_points={'console_scripts': ['clean_folder=clean_folder.clean:clean_folder_']}
+      entry_points={'console_scripts': ['clean_folder=clean_folder.clean:main']}
 )
