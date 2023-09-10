@@ -3,6 +3,7 @@ import sys
 from pathlib import Path
 import re #модуль регулярних обчислень
 
+
 #обробка файлів. Path - збережений шлях до файлу: WindowsPath('tmp/Chess_position_from_black_side.jpg')
 # root_folder - папка tmp
 # dist - папка куди слід занести інформацію (перенести файли) 
@@ -158,7 +159,11 @@ def get_folder_objects(root_path):                                      #пер�
                 pass
       
 
-def main(folder_path):
+def main():
+    
+    folder_path = 'C:\Users\User\Desktop\tmp'
+    
+    
     scan(folder_path)
     remove_empty_folders(folder_path) 
     
@@ -181,10 +186,10 @@ def main(folder_path):
     get_folder_objects(folder_path)
 
 
-path = sys.argv[1]                                    #запуск через термінал, [1] - ім'я директорії 
-arg = Path(path)   
+# path = sys.argv[1]                                    #запуск через термінал, [1] - ім'я директорії 
+# arg = Path(path)   
 
 
 
-#if __name__ == '__main__':
-main(arg.resolve())
+if __name__ == '__main__':
+    main()
